@@ -1,0 +1,27 @@
+WRITE AND BACK PRO 4.0 — EDIÇÃO LOCAL
+Copyright (c) 2026 Nailson Rodrigues de Lima
+
+USO IMEDIATO, SEM INSTALAÇÃO NEM PAGAMENTO DE API
+1. Extraia o ZIP.
+2. Abra index.html em um navegador atualizado.
+3. Leia e aceite Termos, Privacidade e Contrato de Licença.
+4. Digite uma ideia no Estúdio e clique em Gerar prompt profissional.
+5. Consulte Inteligência local 4.0 para análise, perguntas e tutor offline.
+6. Exporte ou salve os projetos antes de limpar dados do navegador.
+
+OPÇÃO: IA GENERATIVA NEURAL SEM API PAGA
+1. Num computador compatível, instale Node.js >=20 e Ollama, separadamente.
+2. Instale um modelo local compatível no Ollama (exemplo: ollama pull llama3.2).
+3. Windows: execute INICIAR_LOCAL.bat. Linux/macOS: execute INICIAR_LOCAL.sh.
+4. Abra http://127.0.0.1:8787 e clique em Inteligência local 4.0 > Verificar computador.
+5. Escolha um modelo detectado e gere/refine localmente.
+
+OBSERVAÇÕES
+- Ollama e pesos de modelos NÃO acompanham o pacote; verifique as licenças de terceiros.
+- O modo básico não é um modelo neural treinado: utiliza regras e análise textual.
+- Não depende de OpenAI API, hospedagem Render ou cobrança por geração.
+- Equipamento, disco, eletricidade e download dos modelos podem gerar custos indiretos.
+- Windows 7 e navegadores obsoletos não foram homologados para a ponte Node.js.
+- Recursos de laboratório PRO exigem licença assinada separadamente.
+- Documentos legais são minutas a completar e revisar antes da oferta comercial pública.
+- Relatório técnico: QA_RESULTADOS_4_0.md.
