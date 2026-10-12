@@ -1,0 +1,14 @@
+{
+  "name": "write-and-back-pro",
+  "version": "3.1.0",
+  "private": true,
+  "description": "Aplicativo profissional de construção e estudo de prompts com PRO assinado offline e servidor de IA opcional",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
