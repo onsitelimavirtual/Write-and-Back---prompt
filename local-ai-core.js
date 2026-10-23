@@ -1,4 +1,6 @@
-/* Write and Back 4.0 — motor semântico offline, explicável, sem modelo estatístico treinado.
+'use strict';
+
+/* Write and Back 5.0.2 — motor semântico offline, explicável, sem modelo estatístico treinado.
    Copyright (c) 2026 Nailson Rodrigues de Lima. */
 (function(root,factory){
   var exported=factory();
@@ -89,7 +91,7 @@
     return {idea:src,area:classification.primary,label:TOPICS[classification.primary].label,confidence:classification.confidence,alternatives:classification.ranked,role:TOPICS[classification.primary].role,purposes:purposes.map(function(p){return p.label;}),constraints:flags.map(function(c){return c.name;}),flags:flags.map(function(c){return c.key;}),keywords:keywords,audience:target?target[0]:null,platform:explicitPlatform?explicitPlatform[0]:null,score:score,rubric:rubric,conflicts:conflicts,suggestions:suggestions,modules:modules,questions:questions.slice(0,5)};
   }
   function build(input,options){options=options||{};var a=typeof input==='string'?extract(input):input;var level=options.depth||'avancado';var lines=[];var p=function(s){lines.push(s);};
-    p('# WRITE AND BACK — PROMPT CONTEXTUAL LOCAL 4.0');
+    p('# WRITE AND BACK — PROMPT CONTEXTUAL LOCAL 5.0.2');
     p('**Método:** síntese baseada em conhecimento estruturado e análise semântica heurística. Não é um LLM treinado.');
     p('**Domínio sugerido:** '+a.label+' (confiança '+a.confidence+'; confirmar com o solicitante).');
     p(''); p('## 1. PAPEL, OBJETIVO E LIMITES');
@@ -144,5 +146,7 @@
     if(/\b(offline|ia local|modelo|ollama)\b/.test(q))return 'O motor semântico funciona offline no HTML, mas não cria texto com um modelo neural. Para IA generativa real sem API paga, instale um modelo local no Ollama e inicie o servidor local incluído no ZIP. O uso consome recursos do computador.';
     return 'Posso ajudar a refinar sua ideia em '+a.label+'. Diagnóstico: '+a.score+'/100 (heurístico). '+(a.conflicts.length?'Primeiro resolva: '+a.conflicts[0].message+' ':'')+(a.suggestions[0]||'Peça exemplos, critérios de aceite ou revisão de riscos.');
   }
-  return {version:'4.0.0',analyze:extract,build:build,coach:coach,topics:TOPICS};
+  return {version:'5.0.2',analyze:extract,build:build,coach:coach,topics:TOPICS};
 });
+
+

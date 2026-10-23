@@ -61,5 +61,5 @@ const app=http.createServer(async(req,res)=>{
   }
   return send(res,404,{error:'Recurso não encontrado.'});
 });
-if(require.main===module){app.listen(PORT,'127.0.0.1',()=>{process.stdout.write('Write and Back 4.0 aberto em http://127.0.0.1:'+PORT+'\n');});}
+if(require.main===module){app.listen(PORT,'127.0.0.1',()=>{process.stdout.write('Write and Back 5.0.2 aberto em http://127.0.0.1:'+PORT+'\n');});}
 module.exports={app,originIsLocal,INSTRUCTIONS};

@@ -1,4 +1,4 @@
-# Posicionamento comercial — Write and Back PRO 3.0
+# Posicionamento comercial — Write and Back PRO 5.0.2
 **Estimativas sugeridas, não avaliação oficial de mercado nem pesquisa estatística.**
 
 ## Edição atualmente entregável

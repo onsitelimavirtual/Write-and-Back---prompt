@@ -1,12 +1,14 @@
 {
   "name": "write-and-back-pro-local",
-  "version": "4.0.0",
+  "version": "5.0.2",
   "private": true,
-  "description": "Write and Back 4.0: prompt engineering offline com motor semântico, QA e modelo generativo opcional instalado no próprio computador",
+  "description": "Write and Back PRO 5.0.2: gerador de prompts local, QA semântico e Ollama opcional, sem API paga",
   "license": "UNLICENSED",
   "scripts": {
     "start": "node local-bridge.js",
     "test": "node --test tests/*.test.js"
   },
-  "engines": {"node": ">=20"}
+  "engines": {
+    "node": ">=20"
+  }
 }

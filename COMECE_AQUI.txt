@@ -1,27 +1,31 @@
-WRITE AND BACK PRO 4.0 — EDIÇÃO LOCAL
-Copyright (c) 2026 Nailson Rodrigues de Lima
+WRITE AND BACK PRO 5.0.2 — EDIÇÃO LOCAL CORRIGIDA
+Copyright © 2026 Nailson Rodrigues de Lima.
 
-USO IMEDIATO, SEM INSTALAÇÃO NEM PAGAMENTO DE API
-1. Extraia o ZIP.
-2. Abra index.html em um navegador atualizado.
-3. Leia e aceite Termos, Privacidade e Contrato de Licença.
-4. Digite uma ideia no Estúdio e clique em Gerar prompt profissional.
-5. Consulte Inteligência local 4.0 para análise, perguntas e tutor offline.
-6. Exporte ou salve os projetos antes de limpar dados do navegador.
+INICIAR SEM CUSTOS DE API
+1. Extraia o pacote ZIP.
+2. Abra index.html num navegador atualizado; ou abra o arquivo HTML avulso.
+3. Leia os documentos e registre o aceite de uso no próprio navegador.
+4. Digite SUA ideia no Estúdio, confira os campos e clique em Gerar prompt profissional.
+5. Confirme o nome e a versão no rodapé: Write and Back PRO 5.0.2.
+6. Para começar um pedido diferente, use Limpar e digite a nova ideia.
 
-OPÇÃO: IA GENERATIVA NEURAL SEM API PAGA
-1. Num computador compatível, instale Node.js >=20 e Ollama, separadamente.
-2. Instale um modelo local compatível no Ollama (exemplo: ollama pull llama3.2).
-3. Windows: execute INICIAR_LOCAL.bat. Linux/macOS: execute INICIAR_LOCAL.sh.
-4. Abra http://127.0.0.1:8787 e clique em Inteligência local 4.0 > Verificar computador.
-5. Escolha um modelo detectado e gere/refine localmente.
+CORREÇÕES DA VERSÃO 5.0.2
+- Atualizada a identificação de versão no cabeçalho gerado, rodapé, área Sobre, exportações e documentos.
+- Referência a um título de outro projeto é removida na geração, visualização e abertura de histórico.
+- Dados de versões anteriores permanecem no navegador; exporte ou apague projetos antigos se preferir.
+- Núcleo avançado, biblioteca, academia, QA e licenciamento preservados.
+- Para publicar na web substitua o index.html anterior e faça recarregamento completo; abrir um arquivo antigo continuará mostrando a edição antiga.
 
-OBSERVAÇÕES
-- Ollama e pesos de modelos NÃO acompanham o pacote; verifique as licenças de terceiros.
-- O modo básico não é um modelo neural treinado: utiliza regras e análise textual.
-- Não depende de OpenAI API, hospedagem Render ou cobrança por geração.
-- Equipamento, disco, eletricidade e download dos modelos podem gerar custos indiretos.
-- Windows 7 e navegadores obsoletos não foram homologados para a ponte Node.js.
-- Recursos de laboratório PRO exigem licença assinada separadamente.
-- Documentos legais são minutas a completar e revisar antes da oferta comercial pública.
-- Relatório técnico: QA_RESULTADOS_4_0.md.
+IA GENERATIVA NEURAL LOCAL (OPCIONAL)
+O HTML funciona com regras mesmo sem Ollama. Para usar um modelo neural gratuito,
+instale voluntariamente Node.js >=20, Ollama e um modelo suportado no próprio computador.
+Inicie INICIAR_LOCAL.bat (Windows compatível) ou INICIAR_LOCAL.sh (Linux/macOS),
+acesse http://127.0.0.1:8787 e escolha o modelo detectado.
+Não exponha a ponte local na internet. Os modelos não vêm no ZIP.
+
+IMPORTANTE
+- Não existe geração neural integrada ao HTML puro; esse modo requer instalação.
+- Compatibilidade com Windows 7 e navegadores antigos não foi homologada.
+- O histórico antigo não é apagado automaticamente.
+- Os documentos legais são minutas sujeitas a preenchimento e revisão.
+- Veja QA_RESULTADOS_5_0_2.md para resultados e limitações.

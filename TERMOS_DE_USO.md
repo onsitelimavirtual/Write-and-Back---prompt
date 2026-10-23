@@ -1,6 +1,6 @@
-# Termos de Uso — Write and Back 3.0
+# Termos de Uso — Write and Back 5.0.2
 
-Versão: 3.0.2-2026-10-11. Titular indicado: Nailson Rodrigues de Lima. Esta minuta deverá ter dados de fornecedor, canal de suporte e forma de contratação complementados antes da venda.
+Versão: 5.0.2-2026-10-23. Titular indicado: Nailson Rodrigues de Lima. Esta minuta deverá ter dados de fornecedor, canal de suporte e forma de contratação complementados antes da venda.
 
 ## 1. Objeto e funcionamento
 

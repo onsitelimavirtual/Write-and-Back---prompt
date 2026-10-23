@@ -3,7 +3,7 @@ setlocal
 cd /d "%~dp0"
 where node >nul 2>nul
 if errorlevel 1 (
-  echo [Write and Back 4.0] Node.js 20 ou superior nao encontrado.
+  echo [Write and Back 5.0.2] Node.js 20 ou superior nao encontrado.
   echo Abra index.html para usar o motor inteligente offline sem instalar nada.
   echo Para o modelo neural local, instale Node.js 20+ e Ollama com um modelo local.
   pause

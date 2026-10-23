@@ -1,6 +1,6 @@
-# Política de Privacidade — Write and Back 3.0
+# Política de Privacidade — Write and Back 5.0.2
 
-Versão: 3.0.2-2026-10-11. Este texto descreve o pacote fornecido nesta edição, não abrange hospedagens, pagamentos ou integrações adicionadas futuramente.
+Versão: 5.0.2-2026-10-23. Este texto descreve o pacote fornecido nesta edição, não abrange hospedagens, pagamentos ou integrações adicionadas futuramente.
 
 ## 1. Responsável e canais
 

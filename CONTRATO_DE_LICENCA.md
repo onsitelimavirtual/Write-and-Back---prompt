@@ -1,4 +1,4 @@
-# Contrato de Licença de Uso — Write and Back 3.0
+# Contrato de Licença de Uso — Write and Back 5.0.2
 
 Minuta de referência — sujeita a revisão jurídica e definição de dados comerciais. Titular indicado: Nailson Rodrigues de Lima. Licenciado: pessoa física ou jurídica que aceitar e contratar a licença aplicável.
 
